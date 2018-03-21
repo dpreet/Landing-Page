@@ -61,7 +61,7 @@ nav{
     height: 100vh;
     background:url('assets/banner.png');
     background-size: cover;
-    background-position: 0 -15%;
+    /* background-position: 0 -15%; */
     position: relative;
     background-attachment: fixed;
 }
@@ -490,6 +490,12 @@ footer ul li span:hover {
         font-size: 1.25rem;
     }
 
+    .header .hcontent{
+
+        margin-left: 40px ;
+        padding-top: 150px;
+    }
+
     .features {
         height: auto;
     }
@@ -517,6 +523,28 @@ footer ul li span:hover {
     .screenshots {
         height: auto;
         /* margin-bottom: 50px; */
+    }
+
+
+    form {
+
+    width:200px;
+    }
+
+    .video-content h1{
+
+        font-size: 1.75rem;
+    }
+
+    .video-content h5{
+
+        font-size: 1.25rem;
+        padding: 15px;
+    }
+
+    form label{
+
+        font-size: 1.25rem;
     }
 
 }
